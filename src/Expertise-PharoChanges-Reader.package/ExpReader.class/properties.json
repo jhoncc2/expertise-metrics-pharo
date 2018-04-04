@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JurajKubelka 7/5/2017 19:08",
+	"super" : "Object",
+	"category" : "Expertise-PharoChanges-Reader",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ExpReader",
+	"type" : "normal"
+}

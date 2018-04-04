@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "JurajKubelka 4/4/2018 15:25",
+	"super" : "Object",
+	"category" : "Expertise-PharoChanges-Calculator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"methods",
+		"classes",
+		"packages",
+		"usage",
+		"lastcontrib"
+	],
+	"name" : "ExpertiseCalculator",
+	"type" : "normal"
+}

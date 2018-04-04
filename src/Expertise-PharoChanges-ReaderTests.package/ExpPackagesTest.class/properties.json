@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "Expertise-PharoChanges-ReaderTests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"packages",
+		"window"
+	],
+	"name" : "ExpPackagesTest",
+	"type" : "normal"
+}
