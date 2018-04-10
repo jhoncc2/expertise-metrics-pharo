@@ -1,4 +1,4 @@
-as yet unclassified
+public
 on: files in: directory
 	| chunks collectedMethods |
 	collectedMethods := OrderedCollection new.
@@ -8,4 +8,4 @@ on: files in: directory
 				chunksFromStream: (FileStream readOnlyFileNamed: directory , f).
 			collectedMethods addAll: (chunks select: [ :e | e isMethodDeclaration ]) ].
 	
-	collectedMethods do: [ :method | self processMethod: method ].
+	collectedMethods do: [ :method | self processMethod: method.].

@@ -1,6 +1,5 @@
 removing
 removeDuplicates
-
-	methods := methods collect: [ :changes | changes asSet asArray].
-	classes := classes collect: [ :changes | changes asSet asArray].
+	methods := methods collect: [ :changes | changes asSet asOrderedCollection].
+	classes := classes collect: [ :changes | changes asSet asOrderedCollection].
 	

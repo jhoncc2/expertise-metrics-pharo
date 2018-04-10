@@ -2,7 +2,7 @@ as yet unclassified
 processMethod: method
 
 	| author date coll cls mth key |
-	method stamp ifNotEmpty: [
+	self ifValidInformation: method stamp do: [
 		author := (method stamp splitOn: ' ') first.
 		self ifEligible: author do: [
 			date := ((method stamp splitOn: ' ') last: 2) first.

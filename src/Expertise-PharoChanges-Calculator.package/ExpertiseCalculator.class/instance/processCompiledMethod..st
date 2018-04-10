@@ -2,6 +2,8 @@ as yet unclassified
 processCompiledMethod: method
 
 	| author date coll cls mth key |
+
+	"method timeStamp ifEmpty:[ self halt.]."
 	method timeStamp ifNotEmpty: [:ts |
 		author := method author.
 		self ifEligible: author do: [
