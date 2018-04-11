@@ -8,5 +8,5 @@ groups: spec
 				#'Expertise-PharoChanges-DiscordBot'
 				#'Expertise-PharoChanges-Reader' );
 			group: #'tests' with: #( #'Expertise-PharoChanges-ReaderTests' );
-			group: #'default' with: #( #'core' #'tests' )
+			group: #'default' with: #( #'code' #'tests' )
 	].

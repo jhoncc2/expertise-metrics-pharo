@@ -4,9 +4,10 @@ unifyNames
 	authors := Bag new.
 	methods do: [ :changes |
 		changes do: [ :c | | author |
-			author := c value. 
+			author := c key. 
 			authors add: author
 			]].
+
 	names := authors asSet.
 	matches := Dictionary new.
 	names copy do: [ :name | | closeNames rightName |

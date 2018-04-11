@@ -2,8 +2,12 @@ private
 externalProjects: spec
 	spec for: #'common' do: [
 		spec
-			configuration: 'DiscordSt' with: [ 
+			baseline: 'DiscordSt' with: [ 
 				spec
 					repository: 'github://JurajKubelka/DiscordSt/src';
-					loads: #default ]
+					loads: #default ];
+			configuration: 'NeoJSON' with: [ 
+				spec
+					repository: 'http://smalltalkhub.com/mc/SvenVanCaekenberghe/Neo/main';
+					loads: #default ].
 	].

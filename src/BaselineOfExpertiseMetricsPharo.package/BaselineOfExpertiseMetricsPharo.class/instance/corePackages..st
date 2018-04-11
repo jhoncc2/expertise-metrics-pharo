@@ -7,7 +7,7 @@ corePackages: spec
 				spec requires: #( #'DiscordSt' #'Expertise-PharoChanges-Reader' ). ];
 
 			package: #'Expertise-PharoChanges-Reader' with: [
-				spec requires: #( #'NeoJSON' #'ExternalVolatileStore' ). ];
+				spec requires: #( #'NeoJSON' "#'ExternalVolatileStore'" ). ];
 			package: #'Expertise-PharoChanges-ReaderTests' with: [
 				spec requires: #( #'Expertise-PharoChanges-Reader' ). ]
 	].
