@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ExpertiseCalculator",
+	"category" : "Expertise-PharoChanges-Calculator",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ExpertiseRanking",
+	"type" : "normal"
+}

@@ -1,5 +1,5 @@
-as yet unclassified
-processCompiledMethod2: method
+building
+processCompiledMethod: method
 
 	| author date coll cls mth key |
 	
@@ -11,6 +11,7 @@ processCompiledMethod2: method
 		cls := method methodClass name.
 		mth := method selector.
 		key := cls -> mth.
+		"(methods includesKey: key) ifTrue:[self halt.]."
 		coll := methods at: key ifAbsentPut: OrderedCollection new.
 		coll add: author -> date.
 		coll := classes at: cls ifAbsentPut: OrderedCollection new.
