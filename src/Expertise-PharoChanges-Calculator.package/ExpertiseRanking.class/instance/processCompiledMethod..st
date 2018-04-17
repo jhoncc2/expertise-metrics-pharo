@@ -10,7 +10,7 @@ processCompiledMethod: method
 
 		cls := method methodClass name.
 		mth := method selector.
-		key := cls -> mth.
+		key := method.
 		"(methods includesKey: key) ifTrue:[self halt.]."
 		coll := methods at: key ifAbsentPut: OrderedCollection new.
 		coll add: author -> date.
